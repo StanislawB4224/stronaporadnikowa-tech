@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poradniki:Komputer Używany-TechPoradinkowo</title>
+    <link href="bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="komp.css" rel="stylesheet">
+</head>
+<body>
+  
+    <header>  
+            <h1>TechPoradniki.pl</h1>
+            <b>Poradnik zakupu komputera/smartfona i niedługo laptopa</b>
+    </header>
+
+    
+    <div class="container">
+        <a href="parowa.html" class="btn powrut">← Powrót do strony głównej</a>
+        
+        <div class="e">
+            <h2 class="tyt">1. Platformy procesorowe</h2>
+            <h2 style="color: red;">AMD</h2><img src="image/amd.png" class="img-thumbnail" style="width: 15%;">
+            <div class="srednia_platforma">
+                 <h4>AMD-platforma AM3</h4>
+                <p>Dość nie udana platforma i architektura Bulldozer(dostali pozew o fałszywe reklamowanie), ale jeśli jest okazyjna cena, można rozważyć zakup.</p>
+                <p>Procesory z tej platformy oferują zazwyczaj wiele rdzeni, ale ich wydajność na rdzeń jest niższa w porównaniu do konkurencji. Sprawdzają się w zastosowaniach wielowątkowych, ale mogą odstawać w grach.</p>
+            </div>
+            
+            <div class="platforma_git">
+                 <h4>AMD-platforma AM4(Ryzen 1xxx,2xxx,3xxx,4xxx,5xxx)</h4>
+                <p>Dobra opcja z długim wsparciem i wydajnością. AMD wciąż wypuszcza nowe procesory na tę platformę (na dzień pisania 2025 listopad). Ma dużo tanich opcji, co nie jest obecne w AM5.</p>
+                <p><b>Zalety:</b> Ogromny wybór procesorów, dobre wsparcie, przystępne ceny, kompatybilność z różnymi generacjami pamięci RAM.</p>
+                <p><b>Polecane procesory:</b> Ryzen 5 3600, Ryzen 5 5600, Ryzen 7 5700X</p>
+            </div>
+            
+            <div class="platforma_supergit">
+                <h4> AMD-platforma AM5</h4>
+                <p>Nowa platforma droższa, ale bardzo wydajna. Wymaga pamięci DDR5(niesteyt wciąż droższej niż ddr4), oferuje najnowsze technologie i świetną wydajność zarówno w grach, jak i aplikacjach wielowątkowych.</p>
+                <p><b>Zalety:</b> Najnowsza architektura, wsparcie PCIe 5.0, doskonała wydajność, długoterminowe wsparcie.</p>
+                <p><b>Wady:</b> Wyższe koszty, wymaga DDR5, ograniczona kompatybilność wsteczna.</p>
+            </div>
+            
+            <h2 style="color: lightskyblue;">Intel</h2> <img src="image/intel.png" class="img-thumbnail" style="width: 15%;">
+            <div class="platforma_git">
+                <h4> Intel-platforma LGA1155(2 i 3 generacja)</h4>
+                <p>Jeszcze dobra platforma, można kupić i7 Ivy Bridge lub taniego Xeona z aliexpressu, aby mieć 4 rdzenie i 8 wątków.</p>
+                <p>Procesory z tej platformy oferują dobrą wydajność nawet dzisiaj. Szczególnie wart uwagi jest Core i7-3770K lub Xeon E3-1230 v2, które oferują 4 rdzenie i 8 wątków w atrakcyjnej cenie.</p>
+            </div>
+            
+            <div class="srednia_platforma">
+               <h4>Intel-platforma LGA1150 (4 generacja)</h4>
+                <p>Mały skok wydajnościowy niż Ivy Bridge (3 generacja), lecz bardziej energooszczędna.</p>
+                <p>Procesory Haswell oferują nieco lepszą wydajność przy niższym poborze mocy. Nadal sprawdzają się w podstawowych zastosowaniach, ale w grach mogą już odstawać.</p>
+            </div>
+            
+            <div class="srednia_platforma">
+                 <h4>Intel-platforma LGA1151 v1 (6 i 7 generacja)</h4>
+                <p>Lepsza wydajność niż Ivy Bridge (3gen) i Haswell (4gen), lecz nie ma wsparcia Windowsa 11 oraz gdy AMD już pokazywało procesory z większą liczbą rdzeni to Intel nic z tym sobie nie robiło i dopiero w następnej generacji zwiększył rdzenie i wątki oraz wydajność.</p>
+                <p>Procesory Skylake i Kaby Lake oferują przyzwoitą wydajność, ale brak wsparcia Windows 11 znacząco ogranicza ich przyszłość.</p>
+            </div>
+            
+            <div class="platforma_git">
+                <h4> Intel-platforma LGA1151 v2 (8 i 9 generacja)</h4>
+                <p>Pierwsze, co ci przychodzi na głowę to jak odróżnić te płyty jeśli nie pisze na nich v2, tylko LGA1151. Są opcje:</p>
+                <ol>
+                    <li>Wejdź na stronę producenta płyty głównej i szukaj modelu i przejdz do CPU list i szukasz np. i3-8xxx i3-9xxx wspiera</li>
+                    <li>Jeśli płyta zaczyna się na liczbie 3 np: GIGABYTE H310M M.2 2.0 - WSPIERA, GIGABYTE H110M M.2 - NIE WSPIERA</li>
+                </ol>
+                <p>Procesory Coffee Lake oferują znaczący wzrost wydajności dzięki zwiększonej liczbie rdzeni. Szczególnie atrakcyjne są modele i5-8400/9400 (6 rdzeni) oraz i7-8700/9700 (6-8 rdzeni).</p>
+            </div>
+            
+            <div class="tekst">
+                <h4>Podsumowanie platform</h4>
+                <table>
+                    <tr>
+                        <th>Platforma</th>
+                        <th>Ocena</th>
+                        <th>Zalety</th>
+                        <th>Wady</th>
+                    </tr>
+                    <tr>
+                     <td>AMD AM4</td>
+                     <td><span class="git">DOBRA</span></td>
+                    <td>Długie wsparcie, tanie opcje, dobry wybór</td>
+                     <td>Starsze modele mogą mieć ograniczoną wydajność,płyty główne mało spadają z ceny</td>
+                    </tr>
+                    <tr>
+                          <td>AMD AM5</td>
+                        <td><span class="spoko_git">BARDZO DOBRA</span></td>
+                           <td>Najnowsza technologia, doskonała wydajność</td>
+                          <td>Wysoki koszt, wymaga DDR5</td>
+                     </tr>
+                     <tr>
+                          <td>Intel LGA1151 v2</td>
+                           <td><span class="git">DOBRA</span></td>
+                          <td>Dobra wydajność, rozsądne ceny</td>
+                         <td>Płyty główne mało spadaj z cen</td>
+                     </tr>
+                     <tr>
+                           <td>Intel LGA1155</td>
+                          <td><span class="ok">OKEJ</span></td>
+                          <td>Bardzo tanie, Xeony z 4 rdzeniami/8 wątkami</td>
+                          <td>Stara architektóra,Max 4 rdzenie i 8 wątków</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class="e">
+            <h2 class="tyt">2. Pamięć RAM</h2>
+            <div class="tekst">
+                <h4>Tryb dual channel i jego ważność</h4>
+ <p>Tryb dual channel pozwala na podwojenie przepustowości pamięci RAM poprzez wykorzystanie dwóch modułów jednocześnie. W praktyce oznacza to wzrost wydajności od 5% do 15% w zależności od aplikacji.</p>
+                <p><b>Jak działa dual channel?</b> Pamięć jest dostępna przez dwa niezależne kanały, co zwiększa efektywną przepustowość. Aby skorzystać z tej funkcji, należy zainstalować pary modułów RAM w odpowiednich slotach na płycie głównej (zazwyczaj oznaczone tym samym kolorem).</p>
+                <p><b>Zalecenia:</b> Zawsze kupuj pamięć w zestawach 2x4GB zamiast 1x8GB, aby móc korzystać z dual channel.</p>
+            </div>
+        </div>
+        
+        <div class="e">
+            <h2 class="tyt">3. Zasilacze</h2>
+            <div class="text-danger">
+                <h4>Konsekwencje złego zasilacza</h4>
+                <p>Słabej jakości zasilacz może powodować:</p>
+                   <ul>
+                    <li>Niestabilne działanie systemu (randomowe restartowanie)</li>
+                      <li>Uszkodzenie komponentów (płyta główna, procesor, karta graficzna)</li>
+                     <li>Przepięcia i skoki napięcia</li>
+                     <li>Nadmierny hałas podczas pracy</li>
+                     <li>Skrócony żywotność podzespołów</li>
+                   </ul>
+            </div>
+            
+            <div class="tekst">
+                <h4>Czarna lista zasilaczy</h4>
+                <p>Czarna lista to spras producentów i modeli zasilaczy, które są znane z niskiej jakości i mogą stanowić zagrożenie dla Twojego sprzętu. Zawiera ona zazwyczaj:</p>
+                <ul>
+                    <li>Zasilacze niewiadomego pochodzenia (no-name)</li>
+                    <li>Modele z przesadnie zawyżoną deklarowaną mocą</li>
+                    <li>Zasilacze bez odpowiednich certyfikatów bezpieczeństwa</li>
+                </ul>
+                <p><a href="https://www.elektroda.pl/rtvforum/topic1199271.html"  class="btn powrut">Sprawdź aktualną listę zasilaczy</a></p>
+            </div>
+        </div>
+        
+        <div class="e">
+            <h2 class="tyt">4. Karty graficzne</h2>
+            
+            <div class="tekst">
+                <h4>Sygnał cyfrowy vs analogowy</h4>
+                <p><b>Sygnał cyfrowy (HDMI, DisplayPort, DVI-D):</b> Przesyła dane w postaci zer i jedynek. Zapewnia lepszą jakość obrazu, nie podlega zakłóceniom i obsługuje wyższe rozdzielczości.</p>
+                <p><b>Sygnał analogowy (VGA, DVI-A):</b> Przesyła ciągły sygnał elektryczny. Podatny na zakłócenia, oferuje niższą jakość obrazu i ograniczone rozdzielczości.</p>
+                <p><b>Wejścia:</b><p> W nowoczesnych kartach graficznych znajdziemy głównie DisplayPort i HDMI, czasem USB-C z obsługą DisplayPort. Starsze modele mogą mieć DVI lub VGA.</p>
+                <h4><b>Wybór odpowiedniej karty dla ciebie </b></h4>
+                <P>Aby wybrać odpowiedni karte dla siebie powinienieś ustawić budżet i jaką oczekujesz wydajnoć</P>
+                <b>NP:</b><p>około 100zł mozna szukać używanego RX 460 i na niskich ustawieniach 900p osiągnąć od 60-115fps <a href="https://www.youtube.com/watch?v=lEZMxXlHAug">ŻRÓDŁO</a></p>
+                <p>Aby porównać wydajnosć kart graficznych są strony pomocne jak:<B><a href="https://www.techpowerup.com/gpu-specs/">Techpowerup, </a><a href="https://technical.city/en">Technical City, </a><a href="https://versus.com/pl">Versus</a></B></p>
+                <P>Oraz filmy na youtube testujące karty graficzne w grze</P>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="amd">
+                        <h4>Karty graficzne od AMD do gier esportowych:</h4>
+                        <ul>
+                            <li>RX 460</li>
+                            <li>RX 580</li>
+                            <li>RX 5600 XT</li>
+                        </ul>
+                        
+                        <h4>Karty graficzne od AMD do gier nowszych:</h4>
+                        <ul>
+                            <li>RX 6600 XT</li>
+                            <li>RX 6700 XT</li>
+                            <li>RX 6800</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="nvidia">
+                        <h4>Karty graficzne od NVIDIA do gier esportowych:</h4>
+                        <ul>
+                            <li>GTX 750ti</li>
+                            <li>GTX 1070</li>
+                            <li>GTX 1660 Super</li>
+                        </ul>
+                        
+                        <h4>Karty graficzne od NVIDIA do gier nowszych:</h4>
+                        <ul>
+                            <li>RTX 2080</li>
+                            <li>RTX 3060 Ti</li>
+                            <li>RTX 3070</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="e">
+            <h2 class="tyt">5. Obudowy</h2>
+            <div class="tekst">
+                <h4>Formaty obudów</h4>
+                <p><b>ATX:</b> Standardowy rozmiar, obsługuje płyty główne ATX, micro-ATX i mini-ITX. Zapewnia dobrą przestrzeń na komponenty i chłodzenie.</p>
+                <p><b>Micro-ATX:</b> Mniejsza wersja ATX, obsługuje płyty micro-ATX i mini-ITX. Kompromis między rozmiarem a funkcjonalnością.</p>
+                <p><b>Mini-ITX:</b> Najmniejszy format, przeznaczony do budowy komputerów compact. Ograniczona przestrzeń na komponenty i chłodzenie.</p>
+                <p><b>Inne formaty:</b> E-ATX (dla dużych płyt), SFF (Small Form Factor) dla ultra-kompaktowych rozwiązań.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>      
+            <p>TechPoradniki.pl</p>
+            <p>to jest moja własna praca, wykorzystane zostały tylko szablony stron oraz dokumentacja bootstrapa (Stanisław) </p>
+            <p>:D</p>
+    </footer>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

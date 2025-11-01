@@ -1,0 +1,63 @@
+        body{
+            padding: 20px;
+            background: linear-gradient(80deg, #edeef0, #96b4c7);
+
+            
+        }
+         header{
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 30px ;
+            margin-bottom: 30px;
+            text-align: center;
+
+        }
+        
+      footer{
+            background: linear-gradient(90deg, rgb(5, 37, 44), rgb(34, 34, 87));
+            
+            padding: 20px 0;
+            margin-top: 40px;
+            height: auto;
+        }
+               
+    .pudlo{
+         background: linear-gradient(180deg, rgb(46, 60, 63), rgb(34, 34, 87));
+         border-radius: 20px;
+         padding: 17px;
+         margin-bottom: 3px;
+         height: 100%;
+         transition: all 0.9s ease;
+         
+     }     
+        .pudlo:hover{
+            
+            box-shadow: 0 45px 20px rgba(0,0,0,0.2);
+            transform: rotate(2deg);
+            
+        }      
+        img{
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            margin: auto;
+            border: 4px solid #8473f3;
+            border-radius: 10px;
+            object-fit: cover;
+            display: block;
+        }   
+        .row{
+            justify-content: center;
+            text-align: center;
+        }
+        
+        p{
+            margin-top: 8px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        

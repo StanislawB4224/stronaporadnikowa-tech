@@ -1,0 +1,120 @@
+        body{
+            background: linear-gradient(80deg, #edeef0, #96b4c7);
+           
+        }
+        header{
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 30px ;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .amd{
+            background-color: #bd716f;
+            border-left: 4px solid red;
+            padding: 10px;
+            margin-bottom: 9px;
+        }
+        .nvidia{
+            background-color: #76da73;
+            border-left: 4px solid green;
+            padding: 10px;
+            margin-bottom: 9px;
+        }
+        .e{
+            background-color:#f1ecec;
+            border-radius: 89px;
+            box-shadow: 0 4px 6px rgba(1, 253, 178, 0.1);
+            padding: 38px;
+            margin-bottom: 19px;
+        }
+        .tyt{
+            border-bottom: 2px solid lightblue;
+            padding-bottom: 9px;
+            margin-bottom: 16px;
+        }
+
+        .srednia_platforma{
+            background-color: #fff8ec;
+            border-left: 4px solid orange;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .platforma_supergit{
+            background-color: #9cf1a4;
+            border-left: 4px solid green;
+            padding: 15px;
+            margin-bottom: 15px;    
+        }
+        .platforma_git{
+            background-color: #e9f3ea;
+            border-left: 4px solid lightgreen;
+            padding: 15px;
+            margin-bottom: 15px;    
+        }
+        /*  .platforma_badziew {
+            background-color: #ffebee;
+            border-left: 4px solid #f44336;
+            padding: 15px;
+            margin-bottom: 15px;
+        }*/
+        .tekst{
+            background-color: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin-bottom: 9px;
+        }
+        .powrut{
+            background-color: #519cdd;
+            color: #bbb;
+            margin-bottom: 30px;
+        }
+        .powrut:hover{
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+        }
+        footer{
+            background: linear-gradient(90deg, rgb(5, 37, 44), rgb(34, 34, 87));
+            color: white;
+            padding: 20px 0;
+            margin-top: 40px;
+            text-align: center;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        table th, td{
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            background-color: #f2f2f2;
+        }
+        .spoko_git{
+            background-color: green;
+             font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .git{
+            background-color: lightgreen;
+             font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .ok{
+            background-color: orange;
+             font-weight: bold;
+            padding: 5px 10px;
+           border-radius: 4px;
+                     
+        }
+        .badziew{
+            background-color: red;
+             font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 4px;
+            
+        }
