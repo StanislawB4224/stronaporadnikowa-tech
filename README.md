@@ -1,0 +1,1 @@
+# stronaporadnikowa-tech
